@@ -2,31 +2,34 @@ import java.util.Scanner;
 
 public class PurchaseAdvisor {
     public static void main(String[] args) {
-        // Создаем объект Scanner для считывания ввода пользователя
         Scanner scanner = new Scanner(System.in);
-
-        // Запрашиваем и считываем количество денег в кармане
-        System.out.println("Сколько у вас денег в кармане?");
-        int money = scanner.nextInt();
-
-        // Определяем, что купить в зависимости от количества денег
-        String purchase = "";
-
-        if (money > 500) {
-            purchase = "Пицца";
-        } else if (money >= 300 && money <= 500) {
-            purchase = "Шаурма";
-        } else if (money >= 100 && money < 300) {
-            purchase = "Гамбургер";
-        } else {
-            purchase = "Доширак";
-        }
-
-        // Выводим совет по покупке
-        System.out.println("Вам стоит купить: " + purchase);
-
-        // Закрываем Scanner
+        int money = getMoneyAmount(scanner);
+        String purchase = determinePurchase(money);
+        printPurchaseAdvice(purchase);
         scanner.close();
     }
-}
 
+    // Метод для запроса и считывания количества денег в кармане
+    private static int getMoneyAmount(Scanner scanner) {
+        System.out.println("Сколько у вас денег в кармане?");
+        return scanner.nextInt();
+    }
+
+    // Метод для определения, что купить в зависимости от количества денег
+    private static String determinePurchase(int money) {
+        if (money >= 500) {
+            return "Пицца";
+        } else if (money >= 300) {
+            return "Шаурма";
+        } else if (money >= 100) {
+            return "Гамбургер";
+        } else {
+            return "Доширак";
+        }
+    }
+
+    // Метод для вывода совета по покупке
+    private static void printPurchaseAdvice(String purchase) {
+        System.out.println("Вам стоит купить: " + purchase);
+    }
+}
