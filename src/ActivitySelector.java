@@ -6,10 +6,10 @@ public class ActivitySelector {
         Scanner scanner = new Scanner(System.in);
 
         // Запрашиваем и считываем значения параметров с консоли
-        System.out.println("Введите 'true', если уже ночь, иначе введите 'false':");
+        System.out.println("Введите '1', если уже ночь, иначе введите '2':");
         boolean isNight = scanner.nextBoolean();
 
-        System.out.println("Введите 'true', если на улице хорошая погода, иначе введите 'false':");
+        System.out.println("Введите '1', если на улице хорошая погода, иначе введите '2':");
         boolean isGoodWeather = scanner.nextBoolean();
 
         // Определяем возможные варианты активностей

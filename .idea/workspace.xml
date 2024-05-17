@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f62f1d4-5f37-4354-951f-2a72340d8c79" name="Changes" comment="Initial commit" />
+    <list default="true" id="3f62f1d4-5f37-4354-951f-2a72340d8c79" name="Changes" comment="код разбит на методы">
+      <change afterPath="$PROJECT_DIR$/src/Arr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Conditioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Simple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivitySelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivitySelector.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +35,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:luliajuli/Java_First.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/luliajuli/Java_First.git&quot;,
     &quot;accountId&quot;: &quot;26dee540-fc24-4468-802c-793635e62c0e&quot;
   }
 }</component>
@@ -41,20 +48,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ActivitySelector.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PurchaseAdvisor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/july/Documents/idea/Java_First/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ActivitySelector.executor": "Run",
+    "Application.Arr.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PurchaseAdvisor.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.Simple.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/july/Documents/idea/Java_First/src/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.ReverseArray">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Simple">
+    <configuration name="Arr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arr" />
+      <module name="Java_First" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Java_First" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PurchaseAdvisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PurchaseAdvisor" />
       <module name="Java_First" />
@@ -69,10 +97,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Simple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Simple" />
+      <module name="Java_First" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.Simple" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PurchaseAdvisor" />
+        <item itemvalue="Application.Arr" />
+        <item itemvalue="Application.ReverseArray" />
       </list>
     </recent_temporary>
   </component>
@@ -101,11 +139,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713561625831</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="код разбит на методы">
+      <option name="closed" value="true" />
+      <created>1715376380027</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715376380027</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="код разбит на методы" />
+    <option name="LAST_COMMIT_MESSAGE" value="код разбит на методы" />
   </component>
 </project>
